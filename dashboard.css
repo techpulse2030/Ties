@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff0f0;
+  color: #333;
+}
+
+.navbar {
+  background-color: #8b0000;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcccc;
+}
+
+.logout {
+  background-color: #ff4d4d;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.dashboard {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.dashboard h1 {
+  font-size: 2rem;
+  color: #8b0000;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard p {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #444;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #fff5f5;
+  border: 1px solid #ffcccc;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #c1121f;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #666;
+  font-size: 0.95rem;
+}
